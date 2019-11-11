@@ -2,4 +2,7 @@
 
 Website for projects
 
-will be changed to Jekyll.
+[ASA](https://kreier.github.io/asa/)
+
+[AQI](https://kreier.github.io/aqi/)
+![QR AQI](https://kreier.github.io/aqi/arduino/qr-map.png)
