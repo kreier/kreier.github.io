@@ -18,4 +18,10 @@ These are some projects I work on:
 
 ### ASA robot
 
-to come
+![ASA robot](asa-20191105.jpg)
+
+### AQI measurement and map
+
+Just scan this code:
+
+![AQI map](aqi.png)
