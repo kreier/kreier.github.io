@@ -18,8 +18,8 @@
 
 # Software
 
-- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
-- [Python2018](./python2018) __2018/11/
+- [AR65view](ar65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
+- [Python2018](./python2018) __2018/11/16__ Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
 
 # Projects
 
