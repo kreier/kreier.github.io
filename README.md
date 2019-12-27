@@ -1,5 +1,6 @@
 # Robot cars
 
+
 - [T500](./T500) __2020/02/02__  Robot car with 3 omnidirectional wheels, controlled by a Raspberry Pi 3.
 - [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
 - [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
@@ -23,17 +24,14 @@
 
 # Projects
 
-<img src="docs/aqi.png" align="right">
+<img src="docs/aqi.png" align="right" width="25%">
 
 - [AQI](./aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
 - [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
 - [ultrasonic](./ultrasonic) Measure distance with ultrasound.
-- [RFID](./rfid) Check out your serial number in your school ID card.
-
-### AQI measurement and map 
+- [RFID](./rfid) Check out your serial number hidden in your school ID card.
 
 [AQI](https://kreier.github.io/aqi/)
 
-![QR AQI map](docs/aqi.png)
 
-https://youtu.be/4jvJJgrxoKo 
+[![MIT license](https://img.shields.io/github/license/kreier/kreier.github.io?color=brightgreen)](http://opensource.org/licenses/MIT)
