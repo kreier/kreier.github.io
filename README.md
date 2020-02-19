@@ -15,6 +15,7 @@
 # Labs
 
 - [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
+- [IB Physics slides and worksheets](./physics) in pptx, docx, pdf and Jupyter notebook ipynb.
 
 
 # Software
