@@ -1,5 +1,11 @@
-# Robot cars
+# Projects
 
+- [Solarmeter](./solarmeter) Measuring the solar power and wind energy on the renewable energy project at AISVN in Nha Be, Vietnam with two ESP32 every two minutes. Further detailled description at [https://sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar).
+- Weatherstation - data collection since 2017, comprehensive analysis and documentation will follow
+- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
+- [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
+
+# Robot cars
 
 - [T500](./T500) __2020/02/02__  Robot car with 3 omnidirectional wheels, controlled by a Raspberry Pi 3.
 - [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
