@@ -33,9 +33,22 @@ Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an
 
 > 2019/12/23 
 
-Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020.
+Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
 
-- [ASA](./asa) __2019/10/03__ Second iteration of student robots at AISVN. 60% of the 10 projects were successful. Started August 2019.
+- Motorshield L298 with buzzer on pin4
+- 4 DoF robot arm with 4 servos on pin A0 to A3
+- Bluetooth Low Energy connection with pin 0 and 1 (Serial1)
+- PWM motor control on pin 10 to 13
+- 1602 LCD display over I2C on pin 2 and 3 SDA SCL
+- MPU6050 gyroscope for location control on I2C
+- Ultrasonic distance with pin 7 (trigger) and pin 8 (echo/response)
+- PS2X controller at pin 5 SC, 6 CLK, A4 DAT and A5 CMD
+
+# [ASA](./asa) 
+
+>  2019/10/03 
+
+Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019.
 
 ## [T200](./T200)
 
