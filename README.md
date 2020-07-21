@@ -29,7 +29,7 @@ Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an
 
 ## [T300](./T300)
 
-<img src="./T300/docs/T300-20191119.jpg" width="40%" align="right">
+<img src="https://kreier.github.io/T300/docs/T300-20191119.jpg" width="40%" align="right">
 
 > 2019/12/23 
 
@@ -48,7 +48,9 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in N
 
 >  2019/10/03 
 
-Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019.
+Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. Remote control using Bluetooth 4.0 runs on Android and iOS.
+
+![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 ## [T200](./T200)
 
