@@ -5,7 +5,7 @@
 > 2020/07/15
 
 <img src="https://kreier.github.io/ar65view/archive/duke.gif" align="right">
-The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [https://sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
+The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
 
 ![installation on the roof](https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg)
 
@@ -65,6 +65,8 @@ This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth
 > 2019/03/06
 
 Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/sciencefair2019) at AIS in the __Design__ category. His team won!
+
+<a href="https://sites.google.com/ais.edu.vn/sciencefair2019/grade-9"><img src="https://kreier.github.io/T80/sciencefair2019.png" width="30%"></a>
 
 ## [T100](./T100)
 
