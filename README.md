@@ -18,9 +18,23 @@ The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W win
 - [T500](./T500) __2020/02/02__  Robot car with 3 omnidirectional wheels, controlled by a Raspberry Pi 3.
 - [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
 - [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
-- [T400](./T400) __2020/02/24__ Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266.
+
+## [T400](./T400) 
+
+> 2020/02/24
+
+Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266.
+
 - [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
-- [T300](./T300) __2019/12/23__ Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019.
+
+## [T300](./T300)
+
+<img src="./T300/docs/T300-20191119.jpg" width="40%" align="right">
+
+> 2019/12/23 
+
+Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020.
+
 - [ASA](./asa) __2019/10/03__ Second iteration of student robots at AISVN. 60% of the 10 projects were successful. Started August 2019.
 
 ## [T200](./T200)
