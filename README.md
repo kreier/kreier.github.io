@@ -9,9 +9,47 @@ The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W win
 
 ![installation on the roof](https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg)
 
-- Weatherstation - data collection since 2017, comprehensive analysis and documentation will follow
+## [Weatherstation](./weatherstation) 
+
+> 2020/08/22
+
+Data collection since 2017, comprehensive analysis and documentation will follow
+
+
 - [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
 - [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
+
+# Labs
+
+## [Labs for physics, chemistry and biology](./labs) 
+
+Labs with data as .csv or .xlsx as well as Jupyter Notebooks.
+
+
+## [IB Physics slides and worksheets](./physics) 
+
+Documents in pptx, docx, pdf and Jupyter notebook ipynb.
+
+
+# Software
+
+## [AR65view](ar65view)
+
+<img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
+
+> 2008/02/23
+
+Developed since 2007 this little Java program might be ported to a native app one day.
+
+
+## [Python2018](./python2018) 
+
+> 2018/11/16
+
+Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
+
+- benchmarks
+- machine learning
 
 # Robot cars
 
@@ -76,36 +114,8 @@ This is the first working example of student robot with Bluetooth control. Creat
 
 ![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
 
-# Labs
 
-## [Labs for physics, chemistry and biology](./labs) 
-
-Labs with data as .csv or .xlsx as well as Jupyter Notebooks.
-
-
-## [IB Physics slides and worksheets](./physics) 
-
-Documents in pptx, docx, pdf and Jupyter notebook ipynb.
-
-
-# Software
-
-## [AR65view](ar65view)
-
-<img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
-
-> 2008/02/23
-
-Developed since 2007 this little Java program might be ported to a native app one day.
-
-
-## [Python2018](./python2018) 
-
-> 2018/11/16
-
-Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
-
-# Projects II
+# Projects II - history
 
 <img src="docs/aqi.png" align="right" width="25%">
 
