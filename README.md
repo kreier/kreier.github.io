@@ -1,6 +1,6 @@
 # Projects
 
-## [Solarmeter](./solarmeter) 
+### [Solarmeter](./solarmeter) 
 
 > 2020/07/15
 
@@ -9,7 +9,7 @@ The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W win
 
 ![installation on the roof](https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg)
 
-## [Weatherstation](./weatherstation) 
+### [Weatherstation](./weatherstation) 
 
 > 2020/08/22
 
@@ -19,21 +19,21 @@ Data collection since 2017, comprehensive analysis and documentation will follow
 - [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
 - [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
 
-# Labs
+# Science
 
-## [Labs for physics, chemistry and biology](./labs) 
+### [Labs for physics, chemistry and biology](./labs) 
 
 Labs with data as .csv or .xlsx as well as Jupyter Notebooks.
 
 
-## [IB Physics slides and worksheets](./physics) 
+### [IB Physics slides and worksheets](./physics) 
 
 Documents in pptx, docx, pdf and Jupyter notebook ipynb.
 
 
 # Software
 
-## [AR65view](ar65view)
+### [AR65view](ar65view)
 
 <img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
 
@@ -42,7 +42,7 @@ Documents in pptx, docx, pdf and Jupyter notebook ipynb.
 Developed since 2007 this little Java program might be ported to a native app one day.
 
 
-## [Python2018](./python2018) 
+### [Python2018](./python2018) 
 
 > 2018/11/16
 
@@ -57,7 +57,7 @@ Starting at the _BeTogetherConference_ of several international schools in Saigo
 - [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
 - [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
 
-## [T400](./T400) 
+### [T400](./T400) 
 
 > 2020/02/24
 
@@ -65,7 +65,7 @@ Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an
 
 - [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
 
-## [T300](./T300)
+### [T300](./T300)
 
 <img src="https://kreier.github.io/T300/docs/T300-20191119.jpg" width="40%" align="right">
 
@@ -82,7 +82,7 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in N
 - Ultrasonic distance with pin 7 (trigger) and pin 8 (echo/response)
 - PS2X controller at pin 5 SC, 6 CLK, A4 DAT and A5 CMD
 
-# [ASA](./asa) 
+### [ASA](./asa) 
 
 >  2019/10/03 
 
@@ -90,13 +90,13 @@ Second iteration of student robots at AISVN. 60% of the 10 projects were success
 
 ![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
-## [T200](./T200)
+### [T200](./T200)
 
 > 2019/04/07
 
 This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion
 
-## [T80](./T80)
+### [T80](./T80)
 
 <img src="https://kreier.github.io/T80/robotcar.jpg" width="30%" align="right">
 
@@ -106,7 +106,7 @@ Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/scie
 
 <a href="https://sites.google.com/ais.edu.vn/sciencefair2019/grade-9"><img src="https://kreier.github.io/T80/sciencefair2019.png" width="30%"></a>
 
-## [T100](./T100)
+### [T100](./T100)
 
 > 2018/11/22 
 
