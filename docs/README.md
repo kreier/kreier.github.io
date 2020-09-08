@@ -64,13 +64,15 @@ Planned projects from December 2019 that never took off due to Covid-19
 
 Totals therefore:
 
-06 Science
-04 Software
-11 Robotics
-09 School projects
-02 Movies and History
-05 Unintentionally forked
-01 kreier.github.io
+| category               | repositories |
+|------------------------|--------------|
+| Science                | 6            |
+| Software               | 4            |
+| Robotics               | 11           |
+| School projects        | 9            |
+| Movies and History     | 2            |
+| Unintentionally forked | 5            |
+| kreier.github.io       | 1            |
 
 Sum is 38 as reported by GitHub. Actually only 32 projects.
 
@@ -78,6 +80,4 @@ Sum is 38 as reported by GitHub. Actually only 32 projects.
 
 [AQI](https://kreier.github.io/aqi/)
 
-![QR AQI map](../docs/aqi.png)
-
-https://youtu.be/4jvJJgrxoKo 
+[https://youtu.be/4jvJJgrxoKo](https://youtu.be/4jvJJgrxoKo)
