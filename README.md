@@ -1,4 +1,4 @@
-# Projects
+# Science
 
 ### [Solarmeter](./solarmeter) 
 
@@ -9,17 +9,13 @@ The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W win
 
 ![installation on the roof](https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg)
 
-### [Weatherstation](./weatherstation) 
+- [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
+- [Physics](./physics) Jupyter notebooks and other projects related to IB Physics.
+- [Temperature station in Hofkoh](./temp.hofkoh.de) at http://temp.hofkoh.de with documentation
+- [Website for collected AQI measurements](./kreier.org-aqi) at kreier.org/aqi
+- [Air Quality data and measurement projects](./aqi) with materials and software
+- [AQI](../aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
 
-> 2020/08/22
-
-Data collection since 2017, comprehensive analysis and documentation will follow
-
-
-- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
-- [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
-
-# Science
 
 ### [Labs for physics, chemistry and biology](./labs) 
 
@@ -31,7 +27,24 @@ Labs with data as .csv or .xlsx as well as Jupyter Notebooks.
 Documents in pptx, docx, pdf and Jupyter notebook ipynb.
 
 
+### [Weatherstation](./weatherstation) 
+
+> 2020/08/22
+
+Data collection since 2017, comprehensive analysis and documentation will follow
+
+
+- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
+- [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
+
+
+
 # Software
+
+- [Machine Learning](./ml) projects in browser and CUDA from Jetson Nano to 1070 Ti and more than 2000 cores
+- [Benchmark](./benchmark) collection of benchmarks and results since 2000
+- [Python2018](./python2018) __2018/11/05__ From first steps in python to text mandelbrot fractals, micropython on ESP32 and jupyter notebooks
+- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
 
 ### [AR65view](ar65view)
 
@@ -48,14 +61,11 @@ Developed since 2007 this little Java program might be ported to a native app on
 
 Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
 
-- benchmarks
-- machine learning
 
-# Robot cars
 
-- [T500](./T500) __2020/02/02__  Robot car with 3 omnidirectional wheels, controlled by a Raspberry Pi 3.
-- [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
-- [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
+# Robotics
+
+
 
 ### [T400](./T400) 
 
@@ -63,7 +73,7 @@ Starting at the _BeTogetherConference_ of several international schools in Saigo
 
 Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266.
 
-- [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
+
 
 ### [T300](./T300)
 
@@ -82,13 +92,6 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in N
 - Ultrasonic distance with pin 7 (trigger) and pin 8 (echo/response)
 - PS2X controller at pin 5 SC, 6 CLK, A4 DAT and A5 CMD
 
-### [ASA](./asa) 
-
->  2019/10/03 
-
-Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. Remote control using Bluetooth 4.0 runs on Android and iOS.
-
-![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 ### [T200](./T200)
 
@@ -115,16 +118,64 @@ This is the first working example of student robot with Bluetooth control. Creat
 ![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
 
 
-# Projects II - history
+Planned projects from December 2019 that never took off due to Covid-19
 
-<img src="docs/aqi.png" align="right" width="25%">
+- [T500](./T500) __2020/02/02__ Robot car with 3 omnidirectional wheels, controlled by a Raspberry Pi 3.
+- [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
+- [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
 
-- [AQI](./aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
+
+# School projects
+
+<img src="./docs/aqi.png" align="right">
+
+- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
+- [RFID](./rfid) Check out your serial number in your school ID card.
+- [ultrasonic](./ultrasonic) Measure distance with ultrasound.
+- [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
+- [ASA](./asa) __2019/10/03__ Second iteration of student robots at AISVN. 60% of the 10 projects were successful. Started August 2019.
+- [asa2](./asa2) 
+- [asa3](./asa3)
+- [remote](./remote)
+- [impact](./impact)
+
+- [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
 - [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
 - [ultrasonic](./ultrasonic) Measure distance with ultrasound.
 - [RFID](./rfid) Check out your serial number hidden in your school ID card.
 
-[AQI](https://kreier.github.io/aqi/)
+### [ASA](./asa) 
 
+>  2019/10/03 
+
+Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. Remote control using Bluetooth 4.0 runs on Android and iOS.
+
+![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
+
+
+## Movies and History
+
+- [movies](./movies)
+- [history](./history)
+
+## Unintentionally forked
+
+- esp-idf
+- DeepReinforcementLearning
+- coremark
+- wifi-car-esp8266
+- webprogramming2014-2015
+
+Totals therefore:
+
+06 Science
+04 Software
+11 Robotics
+09 School projects
+02 Movies and History
+05 Unintentionally forked
+01 kreier.github.io
+
+Sum is 38 as reported by GitHub. Actually only 32 projects.
 
 [![MIT license](https://img.shields.io/github/license/kreier/kreier.github.io?color=brightgreen)](http://opensource.org/licenses/MIT)
