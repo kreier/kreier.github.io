@@ -1,8 +1,6 @@
 # Science
 
-### [Solarmeter](./solarmeter) 
-
-> 2020/07/15
+## [Solarmeter](./solarmeter) 
 
 <img src="https://kreier.github.io/ar65view/archive/duke.gif" align="right">
 The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
@@ -29,13 +27,11 @@ Documents in pptx, docx, pdf and Jupyter notebook ipynb.
 
 ### [Weatherstation](./weatherstation) 
 
-> 2020/08/22
+Data collection since 2017, comprehensive analysis and documentation will follow. Planned for October 2020.
 
-Data collection since 2017, comprehensive analysis and documentation will follow
+## [temp.hofkoh.de](./temp.hofkoh.de) 
 
-
-- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
-- [temp.hofkoh.de](./temp.hofkoh.de) Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
+Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
 
 
 
@@ -55,7 +51,7 @@ Data collection since 2017, comprehensive analysis and documentation will follow
 Developed since 2007 this little Java program might be ported to a native app one day.
 
 
-### [Python2018](./python2018) 
+### [Python2018](python2018) 
 
 > 2018/11/16
 
@@ -64,8 +60,6 @@ Starting at the _BeTogetherConference_ of several international schools in Saigo
 
 
 # Robotics
-
-
 
 ### [T400](./T400) 
 
@@ -127,9 +121,11 @@ Planned projects from December 2019 that never took off due to Covid-19
 
 # School projects
 
-<img src="./docs/aqi.png" align="right">
+## [407B](407B)
 
-- [407B](./407B) In front of 407B should be a little selection of Arduino projects to get students interested.
+In front of 407B should be a little selection of Arduino projects to get students interested.
+
+
 - [RFID](./rfid) Check out your serial number in your school ID card.
 - [ultrasonic](./ultrasonic) Measure distance with ultrasound.
 - [aisvn](./aisvn) __2020/03/10__ Platform standards for interoperability between different robot car generations.
@@ -146,17 +142,18 @@ Planned projects from December 2019 that never took off due to Covid-19
 
 ### [ASA](./asa) 
 
->  2019/10/03 
-
-Second iteration of student robots at AISVN. 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. Remote control using Bluetooth 4.0 runs on Android and iOS.
+Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. For remote control we used Bluetooth 4.0 for both Android and iOS.
 
 ![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 
-## Movies and History
+## Movies
 
-- [movies](./movies)
-- [history](./history)
+Motivated by conversations with friends I started in 2013 a list of recent movies and which of them I watched. By October 2014 the list contained 3800 movie titles in both english and german, dating back to 1921. The majority was from 1980 on, though. And I had watched 904 of them. [More on this project](movies).
+
+## History
+
+A little review of software I wrote since 1987. The oldest actual copy is a program in C++ from November 2000. With some pictures and examples in [the personal programming history](history) project.
 
 ## Unintentionally forked
 
@@ -168,13 +165,13 @@ Second iteration of student robots at AISVN. 60% of the 10 projects were success
 
 Totals therefore:
 
-06 Science
-04 Software
-11 Robotics
-09 School projects
-02 Movies and History
-05 Unintentionally forked
-01 kreier.github.io
+- Science 6
+- Software 4
+- Robotics 11
+- School projects 9
+- Movies and History 2
+- Unintentionally forked 5
+- kreier.github.io 1
 
 Sum is 38 as reported by GitHub. Actually only 32 projects.
 
