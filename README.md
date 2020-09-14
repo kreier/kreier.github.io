@@ -1,4 +1,4 @@
-<a href="short" align="right"><img src="docs/short_list.png" align="right" width="100px"></a>
+<a href="short" align="right"><img src="docs/shortlist.png" align="right" width="87px" height="26"></a>
 
 # Science
 
