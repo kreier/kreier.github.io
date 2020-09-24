@@ -2,7 +2,7 @@
 
 # Science
 
-## [Solarmeter](./solarmeter) 
+### [Solarmeter](./solarmeter) 
 
 <img src="https://kreier.github.io/ar65view/archive/duke.gif" align="right">
 The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
@@ -19,63 +19,99 @@ The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W win
 
 ### [Labs for physics, chemistry and biology](./labs) 
 
-Labs with data as .csv or .xlsx as well as Jupyter Notebooks.
+Labs with data as .csv or .xlsx as well as Jupyter Notebooks. Like determine the surface temperature of the sun by measuring the temperature change of water in a blacked test tube over time.
 
 
 ### [IB Physics slides and worksheets](./physics) 
 
-Documents in pptx, docx, pdf and Jupyter notebook ipynb.
+Documents in pptx, docx, pdf and Jupyter notebook ipynb. Test questions and detailes answers.
+
+
+### [temp.hofkoh.de](./temp.hofkoh.de) 
+
+Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany. Recent software and hardware updates have been made in Saigon.
+
+
+### {AQI](aqi)
+
+Several stations in Saigon measure the particles PM2.5 and PM10 together with humidity and temperature since 2018. It should provide a comprehensive data collection for students to understand the scope of the problem.
+
 
 
 ### [Weatherstation](./weatherstation) 
 
-Data collection since 2017, comprehensive analysis and documentation will follow. Planned for October 2020.
+Data collection since 2017, comprehensive analysis and documentation will follow. Planned for December 2020.
 
-## [temp.hofkoh.de](./temp.hofkoh.de) 
-
-Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany.
 
 
 
 # Software
 
-- [Machine Learning](./ml) projects in browser and CUDA from Jetson Nano to 1070 Ti and more than 2000 cores
-- [Benchmark](./benchmark) collection of benchmarks and results since 2000
-- [Python2018](./python2018) __2018/11/05__ From first steps in python to text mandelbrot fractals, micropython on ESP32 and jupyter notebooks
-- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
+### [Machine Learning](ml)
 
-### [AR65view](ar65view)
+Neuronal networks and artificial intelligence are discussed and explored since the 70s of the last century. But only recently the required computational power have become available to be used at scale. And now even works inside our smartphones! It helps understanding learning (I'm a teacher) and is a promising and interesting subject. Should be applied to the object detection on the Jetson Nano car.
 
-<img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
 
-> 2008/02/23
+### [Benchmark](benchmark)
 
-Developed since 2007 this little Java program might be ported to a native app one day.
+Some benchmark software and results I've been using since 1991 when I compared the speed of a Basic interpreter to a C compiler calculating the prime numbers until 1000 on my Atari ST. Surpisingly the interpretation was significantly faster!
+
+![Coremark results](https://kreier.github.io/benchmark/mix/coremark2020.png)
 
 
 ### [Python2018](python2018) 
 
 > 2018/11/16
 
-Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
+Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python on _2018/11/16_. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
 
 
+### [AR65view](ar65view)
+
+<img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
+
+Developed since 2007 this little Java program visualizes the spectrometric data of the AR65 photoemission station from the EES group at the physics institute of the Humboldt Universit't zu Berlin. The original software repository can still be found on sourceforge.
+
+
+- [Python2018](./python2018) __2018/11/05__ From first steps in python to text mandelbrot fractals, micropython on ESP32 and jupyter notebooks
+- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
+
+
+
+
+![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 # Robotics
 
+### [Jetson Nano powered car](jetson-nano)
+
+### [DIY Actuator](actuator)
+
+Inspired by the INNFOS Gluon project from the end of 2019. Before it was canceled. The steps into building a BLM actuator myself.
+
+### [Open Source MeArm](me2arm)
+
+Many files of the little robot arm __MeArm__ are open source, but some parts are still missing. Having a local laser cutting supplier and cheap servos lying around I tried to source the remaining parts as well. This led to my first PCB design!
+
+
+### [ESP32](ESP32)
+
+Collection of projects since 2018. Used for data collection in the [solarmeter](solarmeter) project, the core of the [T200](T200) robot car and many other data collection and controlling projects.
+
+### [ESP8266](ESP8266)
+
+After having some progress with Arduinos the projects start to grow pretty fast. With more CPU power, more storage and the need for connectivity like WiFi one soon ends up at the cheap ESP8266. So did I and took [my first steps](ESP8266).
+
+
 ### [T400](./T400) 
 
-> 2020/02/24
-
-Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266.
+Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266. Started _2020/02/24_
 
 
 
 ### [T300](./T300)
 
 <img src="https://kreier.github.io/T300/docs/T300-20191119.jpg" width="40%" align="right">
-
-> 2019/12/23 
 
 Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
 
@@ -91,19 +127,11 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in N
 
 ### [T200](./T200)
 
-> 2019/04/07
+This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion. Successfull implementation on _2019/04/07_.
 
-This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion
 
-### [T80](./T80)
 
-<img src="https://kreier.github.io/T80/robotcar.jpg" width="30%" align="right">
-
-> 2019/03/06
-
-Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/sciencefair2019) at AIS in the __Design__ category. His team won!
-
-<a href="https://sites.google.com/ais.edu.vn/sciencefair2019/grade-9"><img src="https://kreier.github.io/T80/sciencefair2019.png" width="30%"></a>
+![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
 
 ### [T100](./T100)
 
@@ -111,7 +139,15 @@ Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/scie
 
 This is the first working example of student robot with Bluetooth control. Created during our club time in 2018-2019. We had a [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI).
 
-![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
+
+### [T80](./T80)
+
+<img src="https://kreier.github.io/T80/robotcar.jpg" width="30%" align="right">
+
+Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/sciencefair2019) at AIS in the __Design__ category. I finished the car on March 6th, 2019. His team won!
+
+<a href="https://sites.google.com/ais.edu.vn/sciencefair2019/grade-9"><img src="https://kreier.github.io/T80/sciencefair2019.png" width="30%"></a>
+
 
 
 Planned projects from December 2019 that never took off due to Covid-19
@@ -146,16 +182,16 @@ In front of 407B should be a little selection of Arduino projects to get student
 
 Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. For remote control we used Bluetooth 4.0 for both Android and iOS.
 
-![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 
-## Movies
+## [Movies](movies)
 
 Motivated by conversations with friends I started in 2013 a list of recent movies and which of them I watched. By October 2014 the list contained 3800 movie titles in both english and german, dating back to 1921. The majority was from 1980 on, though. And I had watched 904 of them. [More on this project](movies).
 
-## History
+## [History](history)
 
-A little review of software I wrote since 1987. The oldest actual copy is a program in C++ from November 2000. With some pictures and examples in [the personal programming history](history) project.
+A little review of software I wrote since 1987. The oldest actual copy is a program in C++ from November 2000. The languages covered over this time are Basic, TurboPascal, Visual Basic, C, C++, php, Mathematica, html, css, javascript, python, jupyter notebook with markdown and LaTeX, MicroPython and other small projects.
+
 
 ## Unintentionally forked
 
