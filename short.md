@@ -22,14 +22,14 @@ Short list of my repositories, grouped by category.
 - [jetson-nano](../jetson-car) is a model car powered by a jetson nano and object detection.
 - [DIY Actuator](../actuator) inspired by INNFOS Gluon and NDD30 project
 - [Open source MeArm](../me2arm) files and documentation for cheap robot arm, called [me2arm](../me2arm)
-- [ESP32](../esp32) projects collection since 2018
-- [ESP8266](../esp8266) projects collection since 2018
-- [T400](../T400)  robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266 - _2020/02/24_.
-- [T300](../T300) _2019/12/23_ Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019.
-- [T200](../T200) _2019/04/07_ Updated to Bluetooth Low Energy and ESP32 as MCU. Speed control is now analog.
-- [T110](../T110) __2018/10/03__ Control a robot car with Bluetooth 4.0 to incorporate iPhones. Instead went for BLE, to be found in T200 and ESP32.
-- [T80](../T80) __2019/03/06__ Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/sciencefair2019) at AIS in the __Design__ category. His team won!
-- [T100](../T100) __2018/11/22__ First working example of student robot with Bluetooth control. Created during club time 2018-2019 once a week. [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI).
+- [ESP32](../ESP32) projects collection since 2018
+- [ESP8266](../ESP8266) projects collection since 2018
+- [T400](../T400) robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266 - _2020/02/24_.
+- [T300](../T300) third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019.
+- [T200](../T200) has been updated to Bluetooth Low Energy and ESP32 as MCU. Speed control is now analog. -  _2019/04/07_
+- [T110](../T110) now we control a robot car with Bluetooth 4.0 to incorporate iPhones. Instead went for BLE, to be found in T200 and ESP32. _2018/10/03_
+- [T100](../T100) is our first working example of student robot with Bluetooth control. Created during club time 2018-2019 once a week. [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI). - _2018/11/22_ 
+- [T80](../T80) is Viet's robot for the [Sciencefair 2019](https://sites.google.com/ais.edu.vn/sciencefair2019) at AIS in the __Design__ category. His team won! Created on _2019/03/06_.
 
 Planned projects from December 2019 that never took off due to Covid-19
 
