@@ -7,14 +7,7 @@
 <img src="https://kreier.github.io/ar65view/archive/duke.gif" align="right">
 The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
 
-![installation on the roof](https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg)
-
-- [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
-- [Physics](./physics) Jupyter notebooks and other projects related to IB Physics.
-- [Temperature station in Hofkoh](./temp.hofkoh.de) at http://temp.hofkoh.de with documentation
-- [Website for collected AQI measurements](./kreier.org-aqi) at kreier.org/aqi
-- [Air Quality data and measurement projects](./aqi) with materials and software
-- [AQI](../aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
+<p align="center"><img src="https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg" width="70%" ></p>
 
 
 ### [Labs for physics, chemistry and biology](./labs) 
@@ -32,7 +25,7 @@ Documents in pptx, docx, pdf and Jupyter notebook ipynb. Test questions and deta
 Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany. Recent software and hardware updates have been made in Saigon.
 
 
-### {AQI](aqi)
+### [AQI](aqi)
 
 Several stations in Saigon measure the particles PM2.5 and PM10 together with humidity and temperature since 2018. It should provide a comprehensive data collection for students to understand the scope of the problem.
 
@@ -42,8 +35,14 @@ Several stations in Saigon measure the particles PM2.5 and PM10 together with hu
 
 Data collection since 2017, comprehensive analysis and documentation will follow. Planned for December 2020.
 
+- [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
+- [Physics](./physics) Jupyter notebooks and other projects related to IB Physics.
+- [Temperature station in Hofkoh](./temp.hofkoh.de) at http://temp.hofkoh.de with documentation
+- [Website for collected AQI measurements](./kreier.org-aqi) at kreier.org/aqi
+- [Air Quality data and measurement projects](./aqi) with materials and software
+- [AQI](../aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
 
-
+##
 
 # Software
 
@@ -60,8 +59,6 @@ Some benchmark software and results I've been using since 1991 when I compared t
 
 
 ### [Python2018](python2018) 
-
-> 2018/11/16
 
 Starting at the _BeTogetherConference_ of several international schools in Saigon I wrote my first lines in python on _2018/11/16_. Little did I know that soon I would be use it for lab reports in Jupyter notebooks and programming ML and data analysis in Kaggle.
 
@@ -135,9 +132,7 @@ This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth
 
 ### [T100](./T100)
 
-> 2018/11/22 
-
-This is the first working example of student robot with Bluetooth control. Created during our club time in 2018-2019. We had a [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI).
+This is the first working example of student robot with Bluetooth control. Created during our club time in 2018-2019. We had a [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI). Software is from 2018/11/22.
 
 
 ### [T80](./T80)
