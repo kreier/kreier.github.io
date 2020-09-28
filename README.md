@@ -35,14 +35,9 @@ Several stations in Saigon measure the particles PM2.5 and PM10 together with hu
 
 Data collection since 2017, comprehensive analysis and documentation will follow. Planned for December 2020.
 
-- [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
-- [Physics](./physics) Jupyter notebooks and other projects related to IB Physics.
-- [Temperature station in Hofkoh](./temp.hofkoh.de) at http://temp.hofkoh.de with documentation
-- [Website for collected AQI measurements](./kreier.org-aqi) at kreier.org/aqi
-- [Air Quality data and measurement projects](./aqi) with materials and software
-- [AQI](../aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
+&nbsp;
+&nbsp;
 
-##
 
 # Software
 
@@ -69,10 +64,8 @@ Starting at the _BeTogetherConference_ of several international schools in Saigo
 
 Developed since 2007 this little Java program visualizes the spectrometric data of the AR65 photoemission station from the EES group at the physics institute of the Humboldt Universit't zu Berlin. The original software repository can still be found on sourceforge.
 
-
-- [Python2018](./python2018) __2018/11/05__ From first steps in python to text mandelbrot fractals, micropython on ESP32 and jupyter notebooks
-- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
-
+&nbsp;
+&nbsp;
 
 
 
@@ -80,11 +73,13 @@ Developed since 2007 this little Java program visualizes the spectrometric data 
 
 # Robotics
 
-### [Jetson Nano powered car](jetson-nano)
+### [Jetson Nano powered car](jetson-car)
+
 
 ### [DIY Actuator](actuator)
 
 Inspired by the INNFOS Gluon project from the end of 2019. Before it was canceled. The steps into building a BLM actuator myself.
+
 
 ### [Open Source MeArm](me2arm)
 
@@ -95,6 +90,7 @@ Many files of the little robot arm __MeArm__ are open source, but some parts are
 
 Collection of projects since 2018. Used for data collection in the [solarmeter](solarmeter) project, the core of the [T200](T200) robot car and many other data collection and controlling projects.
 
+
 ### [ESP8266](ESP8266)
 
 After having some progress with Arduinos the projects start to grow pretty fast. With more CPU power, more storage and the need for connectivity like WiFi one soon ends up at the cheap ESP8266. So did I and took [my first steps](ESP8266).
@@ -103,7 +99,6 @@ After having some progress with Arduinos the projects start to grow pretty fast.
 ### [T400](./T400) 
 
 Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266. Started _2020/02/24_
-
 
 
 ### [T300](./T300)
@@ -151,6 +146,10 @@ Planned projects from December 2019 that never took off due to Covid-19
 - [T420](./T420) __2020/03/01__ Extended robot car from T400, controlled by a NVIDIA Jetson Nano.
 - [T410](./T410) __2020/02/02__ Upgrade of T400 with Raspberry Pi 1B and 3.5 inch display 480x320 for 80x25 characters.
 
+&nbsp;
+&nbsp;
+
+
 
 # School projects
 
@@ -158,6 +157,10 @@ Planned projects from December 2019 that never took off due to Covid-19
 
 In front of 407B should be a little selection of Arduino projects to get students interested.
 
+
+### [ASA](./asa) 
+
+Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. For remote control we used Bluetooth 4.0 for both Android and iOS.
 
 - [RFID](./rfid) Check out your serial number in your school ID card.
 - [ultrasonic](./ultrasonic) Measure distance with ultrasound.
@@ -173,9 +176,11 @@ In front of 407B should be a little selection of Arduino projects to get student
 - [ultrasonic](./ultrasonic) Measure distance with ultrasound.
 - [RFID](./rfid) Check out your serial number hidden in your school ID card.
 
-### [ASA](./asa) 
 
-Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 60% of the 10 projects were successful. The "After School Activity" ASA ran from August to November 2019. For remote control we used Bluetooth 4.0 for both Android and iOS.
+&nbsp;
+&nbsp;
+
+
 
 
 
@@ -209,3 +214,20 @@ Totals therefore:
 Sum is 38 as reported by GitHub. Actually only 32 projects.
 
 [![MIT license](https://img.shields.io/github/license/kreier/kreier.github.io?color=brightgreen)](http://opensource.org/licenses/MIT)
+
+<hr>
+
+## Trash
+
+This needs to be removed one day ...
+
+- [Labs for physics, chemistry and biology](./labs) with data as .csv or .xlsx as well as Jupyter Notebooks.
+- [Physics](./physics) Jupyter notebooks and other projects related to IB Physics.
+- [Temperature station in Hofkoh](./temp.hofkoh.de) at http://temp.hofkoh.de with documentation
+- [Website for collected AQI measurements](./kreier.org-aqi) at kreier.org/aqi
+- [Air Quality data and measurement projects](./aqi) with materials and software
+- [AQI](../aqi) Several stations to measure PM2.5, PM10, humidity, temperature and ozone. Some data regularly published to the internet.
+
+
+- [Python2018](./python2018) __2018/11/05__ From first steps in python to text mandelbrot fractals, micropython on ESP32 and jupyter notebooks
+- [AR65view](AR65view) __2008/02/23__ Developed since 2007 this little Java program might be ported to a native app one day.
