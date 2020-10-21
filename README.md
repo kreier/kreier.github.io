@@ -66,19 +66,24 @@ Developed since 2007 this little Java program visualizes the spectrometric data 
 
 &nbsp;
 &nbsp;
+&nbsp;
 
 
 
-![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
 
 # Robotics
 
+![Car with Smartphone remote](https://kreier.github.io/asa/documents/20191105.jpg)
+
 ### [Jetson Nano powered car](jetson-car)
 
+Using the Nvidia Jetson Nano I got in January 2020 we created our first self driving car with the 128 CUDA cores on object detection with tensorflow lite and object avoidance. A wide angle camera is directly connected, the chassis we got after TET and the initial delivery challenges from China in the wake of COVID-19. Little did we knew back then how this all would turn out!
 
 ### [DIY Actuator](actuator)
 
-Inspired by the INNFOS Gluon project from the end of 2019. Before it was canceled. The steps into building a BLM actuator myself.
+Inspired by the INNFOS Gluon project from the end of 2019. Before it was canceled. The steps into building a BLM actuator myself. Would be great to design something like the NDD-30 from INNFOS:
+
+<p align="center"><img src="https://kreier.github.io/actuator/pic/exploded.jpg" width="70%"></p>
 
 
 ### [Open Source MeArm](me2arm)
@@ -105,7 +110,7 @@ Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an
 
 <img src="https://kreier.github.io/T300/docs/T300-20191119.jpg" width="40%" align="right">
 
-Third iteration of student robots at AISVN. Started ASA session II at AISVN in November 2019. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
+Third iteration of student robots at AISVN. Started ASA session II at AISVN in __November 2019__. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
 
 - Motorshield L298 with buzzer on pin4
 - 4 DoF robot arm with 4 servos on pin A0 to A3
@@ -119,13 +124,25 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in N
 
 ### [T200](./T200)
 
-This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion. Successfull implementation on _2019/04/07_.
+<p align="center"><img src="https://kreier.github.io/T200/T200-20191119.jpg" width="80%"></p>
 
+This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion. Successfull implementation on __2019/04/07__. Half a year of learning documented the change from the T110 in the following areas:
 
+- New 32bit CPU with 160 MHz insteat of 16 MHz
+- Bluetooth 4.0 and BLE build in, no need for external module
+- Needs 3.3 Volt instead of 5V, new controller DRV8833
+- More memory with 512 kByte instead of 2.5 kByte
 
-![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
+### [T110](./T110)
+
+Inspired by the success with the T100 and the ability to control the robot with bluetooth on an Android smartphone I wanted to bring this experience to the many iPhones our students own. The journey started in October 2018 with a clone of the HC-10 and Bluetooth 4.0. Turns out that 4.0 is both the regular Bluetooth as well as the new BLE - Bluetooth Low Energy. The pairing and data transfer is completely different, way more sophisticated but in the way that it is designed consumes less power and much easier for the user (not the programmer). 
+
+Getting Bluetooth Low Energy running is just one problem. The second one is to find a good free app in the Apple Appstore to use as remote. That's the journey of the T110 in October 2018 until it was abandoned in favor of the T200. We move from Arduino Uno to ESP32. Quite a lot changed!
+
 
 ### [T100](./T100)
+
+![First robot car T100](https://kreier.github.io/T100/panorama.jpg)
 
 This is the first working example of student robot with Bluetooth control. Created during our club time in 2018-2019. We had a [Presentation in black box](https://docs.google.com/presentation/d/1IE6vhY4cZSOWBHvVIj3YtGkaSpueGU_R7iqlo0ujIk4/edit?usp=sharing) on November 23rd, 2018. And two videos from October 2018: [30 seconds robot built](https://youtu.be/4jvJJgrxoKo) and [presentation of projects](https://youtu.be/MgGgulE-zuQ). The first one has been updated with music and [can be found here](https://youtu.be/CzpAYpl62GI). Software is from 2018/11/22.
 
@@ -148,7 +165,7 @@ Planned projects from December 2019 that never took off due to Covid-19
 
 &nbsp;
 &nbsp;
-
+&nbsp;
 
 
 # School projects
@@ -179,7 +196,7 @@ Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 6
 
 &nbsp;
 &nbsp;
-
+&nbsp;
 
 
 
@@ -187,6 +204,8 @@ Already the second iteration of student robots at [AISVN](https://ais.edu.vn). 6
 ## [Movies](movies)
 
 Motivated by conversations with friends I started in 2013 a list of recent movies and which of them I watched. By October 2014 the list contained 3800 movie titles in both english and german, dating back to 1921. The majority was from 1980 on, though. And I had watched 904 of them. [More on this project](movies).
+
+<p align="center"><img src="https://kreier.github.io/movies/movies2020.png" width="70%"></p>
 
 ## [History](history)
 
