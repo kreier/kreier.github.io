@@ -4,7 +4,7 @@
 
 ### [Solarmeter](./solarmeter) 
 
-<img src="https://kreier.github.io/ar65view/archive/duke.gif" align="right">
+<img src="https://kreier.github.io/ar65view/duke.gif" align="right">
 The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
 
 <p align="center"><img src="https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg" width="70%" ></p>
@@ -19,16 +19,16 @@ Labs with data as .csv or .xlsx as well as Jupyter Notebooks. Like determine the
 
 Documents in pptx, docx, pdf and Jupyter notebook ipynb. Test questions and detailes answers.
 
-
-### [temp.hofkoh.de](./temp.hofkoh.de) 
-
-Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany. Recent software and hardware updates have been made in Saigon.
-
+<img src="docs/nhabe2020.png" align="right" width="200px">
 
 ### [AQI](aqi)
 
 Several stations in Saigon measure the particles PM2.5 and PM10 together with humidity and temperature since 2018. It should provide a comprehensive data collection for students to understand the scope of the problem.
 
+
+### [temp.hofkoh.de](./temp.hofkoh.de) 
+
+Starting in November 2013 a DS18S20 onewire thermometer connected to a TP-Link TL-WR703N with OpenWRT and a DS9490R USB dongle was measuring the outdoor temperature in Hofkoh, Germany. Recent software and hardware updates have been made in Saigon.
 
 
 ### [Weatherstation](./weatherstation) 
@@ -60,7 +60,7 @@ Starting at the _BeTogetherConference_ of several international schools in Saigo
 
 ### [AR65view](ar65view)
 
-<img src="https://kreier.github.io/ar65view/archive/java.png" align="right">
+<img src="https://kreier.github.io/ar65view/java.png" align="right">
 
 Developed since 2007 this little Java program visualizes the spectrometric data of the AR65 photoemission station from the EES group at the physics institute of the Humboldt Universit't zu Berlin. The original software repository can still be found on sourceforge.
 
@@ -106,9 +106,9 @@ After having some progress with Arduinos the projects start to grow pretty fast.
 Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266. Started _2020/02/24_
 
 
-### [T300](./T300)
+<img src="https://kreier.github.io/T300/T300-20191119.jpg" width="30%" align="right">
 
-<img src="https://kreier.github.io/T300/docs/T300-20191119.jpg" width="40%" align="right">
+### [T300](./T300)
 
 Third iteration of student robots at AISVN. Started ASA session II at AISVN in __November 2019__. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
 
@@ -124,7 +124,7 @@ Third iteration of student robots at AISVN. Started ASA session II at AISVN in _
 
 ### [T200](./T200)
 
-<p align="center"><img src="https://kreier.github.io/T200/T200-20191119.jpg" width="80%"></p>
+<img src="https://kreier.github.io/T200/T200-20191119.jpg" width="30%" align="right">
 
 This new robot has a 32bit CPU with 240 MHz in its center - the ESP32. Bluetooth BLE and WiFi are now automatically included. The reverse engineering of the BLE protocol took some time, but now the speed control is analog and allows slow motion. Successfull implementation on __2019/04/07__. Half a year of learning documented the change from the T110 in the following areas:
 
