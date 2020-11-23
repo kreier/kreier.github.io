@@ -5,7 +5,9 @@
 ### [Solarmeter](./solarmeter) 
 
 <img src="https://kreier.github.io/ar65view/duke.gif" align="right">
-The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
+
+The project on renewable energy at AISVN in Nha Be, Vietnam, includes a 500W wind generator and three solar panels from 1W to 60W. Two ESP32 measure independently several key values every minute and submit the average of 5 mintues into a database and a Google sheet. 
+Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sites.google.com/ais.edu.vn/solar) .
 
 <p align="center"><img src="https://kreier.github.io/solarmeter/pic/2020-06-23_roof.jpg" width="70%" ></p>
 
@@ -106,9 +108,9 @@ After having some progress with Arduinos the projects start to grow pretty fast.
 Robot car for ASA session III at AISVN. Programmed in MicryPython. Powered by an ESP8266. Started _2020/02/24_
 
 
-<img src="https://kreier.github.io/T300/T300-20191119.jpg" width="30%" align="right">
-
 ### [T300](./T300)
+
+<img src="https://kreier.github.io/T300/T300-20191119.jpg" width="30%" align="right">
 
 Third iteration of student robots at AISVN. Started ASA session II at AISVN in __November 2019__. Was about to be finished in February 2020, but schools in Vietnam were closed after TET in January 2020. The prototype was finished and can be seen on the right. It includes:
 
