@@ -14,7 +14,11 @@ Further detailled description at [sites.google.com/ais.edu.vn/solar](https://sit
 
 ### [Labs for physics, chemistry and biology](./labs) 
 
+<img src="https://kreier.github.io/labs/ee/EE_glass-fascade-data.png" align="right" width="22%">
+
 Labs with data as .csv or .xlsx as well as Jupyter Notebooks. Like determine the surface temperature of the sun by measuring the temperature change of water in a blacked test tube over time.
+
+It extends on past [IAs and EEs](labs/ee) as well. Some data like the temperature increase coefficient for different fascade materials (see right) can be found and the related calculations and measurements.
 
 
 ### [IB Physics slides and worksheets](./physics) 
